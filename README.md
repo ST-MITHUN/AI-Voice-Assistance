@@ -1,13 +1,53 @@
-Terminal commands:
+🗣️ Voice Activated AI Assistant using GPT-3.5 Turbo
+This project is a Voice-Controlled AI Assistant built with Python, integrating:
 
-1. Installing libraries/dependencies
+OpenAI's GPT-3.5-Turbo for intelligent conversation
 
-sudo apt update
-sudo apt upgrade
+Speech Recognition for listening
 
-python3 -m 
-pip install python-dotenv
-pip3 install openai dotenv SpeechRecognition pyttsx3 gtts PyAudio
-sudo apt install python3-pyaudio flac python3-espeak espeak python3-dotenv
-pip uninstall dotenv
-pip install python-dotenv
+Text-to-Speech (TTS) for speaking back responses
+The assistant listens for a wake word (“Hey”), then engages in conversation with natural voice responses.
+
+🎯 Features
+✅ Wake word activation ("Hey")
+
+🎙️ Speech-to-Text using Google Speech Recognition
+
+🧠 AI-generated responses from OpenAI's GPT-3.5 Turbo
+
+🔊 Text-to-Speech response using pyttsx3 and espeak or gTTS
+
+👂 Continuous listening and interaction loop
+
+🎭 Fun greetings and dynamic interaction personality
+
+🛠️ Tech Stack
+Python
+
+OpenAI GPT-3.5 Turbo API
+
+SpeechRecognition (Google API)
+
+pyttsx3 for text-to-speech
+
+gTTS (optional)
+
+dotenv for API key management
+
+NumPy
+
+Matplotlib (not used in this version but imported)
+
+🚀 How to Run
+Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/voice-ai-assistant.git
+cd voice-ai-assistant
+Install Dependencies
+
+bash
+Copy
+Edit
