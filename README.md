@@ -1,5 +1,5 @@
 
-# 🗣️ Voice Activated AI Assistant using GPT-3.5 Turbo
+# Voice Activated AI Assistant using GPT-3.5 Turbo
 
 This project is a **Voice-Controlled AI Assistant** built with **Python**, integrating:
 - OpenAI's GPT-3.5-Turbo for intelligent conversation
@@ -9,18 +9,18 @@ The assistant listens for a wake word (“Hey”), then engages in conversation 
 
 ---
 
-## 🎯 Features
+##  Features
 
-- ✅ **Wake word activation** ("Hey")
-- 🎙️ **Speech-to-Text** using Google Speech Recognition
-- 🧠 **AI-generated responses** from OpenAI's GPT-3.5 Turbo
-- 🔊 **Text-to-Speech** response using `pyttsx3` and `espeak` or `gTTS`
-- 👂 Continuous listening and interaction loop
-- 🎭 Fun greetings and dynamic interaction personality
+-  **Wake word activation** ("Hey")
+-  **Speech-to-Text** using Google Speech Recognition
+-  **AI-generated responses** from OpenAI's GPT-3.5 Turbo
+-  **Text-to-Speech** response using `pyttsx3` and `espeak` or `gTTS`
+-  Continuous listening and interaction loop
+-  Fun greetings and dynamic interaction personality
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **OpenAI GPT-3.5 Turbo API**
@@ -33,7 +33,7 @@ The assistant listens for a wake word (“Hey”), then engages in conversation 
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the Repository**
 
@@ -64,7 +64,7 @@ python main.py
 
 ---
 
-## 🎙️ Usage
+##  Usage
 
 - The assistant waits for the wake word **"Hey"**
 - Once activated, you can speak naturally
@@ -72,7 +72,7 @@ python main.py
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - The project currently uses `espeak` on Linux or can be adapted with `gTTS` for cross-platform TTS
 - Microphone access is required
@@ -80,7 +80,7 @@ python main.py
 
 ---
 
-## 📚 Example
+##  Example
 
 ```
 Assistant: Listening for 'Hey'...
@@ -92,7 +92,7 @@ Assistant: "I'm not connected to live weather services, but I hope it's sunny wh
 
 ---
 
-## 🤝 Credits
+##  Credits
 
 - OpenAI GPT-3.5 Turbo
 - Google Speech Recognition
